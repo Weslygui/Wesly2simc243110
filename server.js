@@ -19,9 +19,6 @@ app.use('/api/products', require ('./router/dataRouter'))
 
 // http://localhost:3000/api/skills
 
-app.use('/api/messages', require ('./router/messageRouter'))
-
-// http://localhost:3000/api/messages
 
 app.listen(PORT, () => {
     console.log("server ready di http:localhost:${PORT}")
